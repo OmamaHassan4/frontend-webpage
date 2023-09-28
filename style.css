@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+
+}
+.nav-header{
+    
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.nav-content:hover{
+    background-color: white;
+    color: black;
+}
+.nav-content {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.nav-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+   
+}
+.nav-search:hover{
+    background-color: red;
+}
+.search {
+    background-color: beige;
+    border-radius:50px ;
+    width: 10px;
+    height: 10px;
+
+}
+.stick{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+img  {
+    width: 100%;
+
+}
+.image{
+    position: relative;
+
+}
+.image-text{
+    position: absolute;
+    bottom: 80px;
+    right: 50%;
+    transform: translate(50% ,50%);
+    color:white;
+    text-align: center;
+}
+.main{
+    padding: 30px;
+    margin: 40px;
+
+}
+.main1{
+    padding-bottom:20px;
+     text-align: center;
+    font-weight: bold;
+
+}
+.main2{
+    text-align: center;
+   
+}
+
+.main3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.main4 {
+    background-color: black;
+    color: white;
+}
+.list{
+    background-color: white;
+    color: black;
+    padding: 40px;
+    margin: 30px;
+
+}
+.soldout{
+    background-color: red;
+    color: white;
+}
+/* .main5{
+    display: flex;
+    justify-content: space-around; */
+/* } */
+.image1{
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+    /* text-align: center; */
+    
+}
+.para{
+    padding-top: 10px;
+    /* text-align: center; */
+
+}
+button{
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+.button{
+    padding-left: 5px;
+}
+
+.main-div{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.main-p{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.heading2{
+       text-align: center;
+
+}
+.map{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.contact-h{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.i{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.map-img{
+    padding-top: 25px;
+}
+.footer{
+    background-color: #f1f1f1;
+    padding: 64px 16px;
+    opacity: 0.5;
+    padding-left: 650px;
+    padding-right: 50px;
+    size: 50px;
+}
+.para-f{
+    padding: 15px 0px;
+}
+.button1{
+    padding-left: 150px;
+    padding-right: 0px;
+}
